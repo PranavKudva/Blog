@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-      <link rel="stylesheet" type="text/css"  href="/bootstrap/css/bootstrap.min.css" >
-      <style>
-          textarea {
-                font-size: 20pt;
-                font-family: Comic Sans MS;
-          }
-          a{
-                font-family: Comic Sans MS;
-          }
-      </style>
+      <link rel="stylesheet" type="text/css"  href="/resources/css/bootstrap.min.css" >
+      <script src="/resources/jquery/jquery.min.js"></script>
+      <script src="/resources/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="row" style="margin-top: 25px">
+        <div style="margin-top: 25px">
             <div class="span12">
                 <div class="hero-unit">
                     <h1>Lekhana</h1>
                     <h4>Because a pen is mightier only if used....</h4>
                     <br/>
 
-                    <div class="container">
-                        <textarea class="field span8" id="textarea" rows="15" placeholder="What's your story?"></textarea>
-                    </div>
-                    <div class="span8"></div>
-                     <p><a href="#" target="_blank" class="btn btn-primary btn-large">Post</a></p>
+                    <div class="row">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#A" data-toggle="tab"><i class="icon-edit"></i>Write</a></li>
+                            <li><a href="#B" data-toggle="tab"><i class="icon-file"></i>Read</a></li>
+                        </ul>
+
+                        <div class="tabbable tab-content">
+                                <div class="tab-pane active" id="A">
+                                    <div>
+                                        <textarea class="field span8" id="textarea" rows="15" placeholder="What's your story?"></textarea>
+                                    </div>
+                                    <div class="span8"></div>
+                                    <p><a href="#" target="_blank" class="btn btn-primary btn-large"><i class="icon-upload"></i>Post</a></p>
+                                </div>
+                                <div class="tab-pane" id="B">
+                                   <form class="well form-search">
+                                        <input type="text" class="input-medium search-query">
+                                        <button type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i>Search</button>
+                                   </form>
+                                </div>
+                        </div>
+                </div>
                 </div>
             </div>
         </div>
