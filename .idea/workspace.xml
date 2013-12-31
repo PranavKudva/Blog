@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4408805-494c-4527-a5bd-b10e38a28219" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Blog.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/jquery/jquery.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lekhana/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lekhana/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lekhana/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lekhana/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lekhana/views.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sketch-ui" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/Blog/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/createBlog.html" afterPath="$PROJECT_DIR$/templates/createBlog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/settings.py" afterPath="$PROJECT_DIR$/Blog/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/urls.py" afterPath="$PROJECT_DIR$/Blog/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Blog.iws" />
@@ -51,38 +35,25 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="7" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createBlog.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/createBlog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="531" selection-end="531" vertical-scroll-proportion="0.3504673" vertical-offset="0" max-vertical-offset="735">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="64" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0" vertical-offset="652" max-vertical-offset="1320">
+            <state line="67" column="1" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.43693694" vertical-offset="714" max-vertical-offset="1380">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lekhana/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="9" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -106,10 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Blog/views.py" />
-        <option value="$PROJECT_DIR$/Blog/index.html" />
-        <option value="$PROJECT_DIR$/Blog/URLconf.py" />
-        <option value="$PROJECT_DIR$/Blog/settings.py" />
         <option value="$PROJECT_DIR$/bootstrap/css/bootstrap-responsive.min.css" />
         <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
@@ -121,6 +88,11 @@
         <option value="$PROJECT_DIR$/resources/jquery/jquery.min.js" />
         <option value="$PROJECT_DIR$/templates/createBlog.html" />
         <option value="$PROJECT_DIR$/resources/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/Blog/mysql.cnf" />
+        <option value="$PROJECT_DIR$/Blog/admin.py" />
+        <option value="$PROJECT_DIR$/Blog/models.py" />
+        <option value="$PROJECT_DIR$/Lekhana/models.py" />
+        <option value="$PROJECT_DIR$/Blog/settings.py" />
       </list>
     </option>
   </component>
@@ -155,7 +127,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,17 +147,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/MentorTogether" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -195,11 +167,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Blog" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/resources/css" />
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/resources/js" />
-      <recent name="$PROJECT_DIR$/bootstrap/css" />
-      <recent name="$PROJECT_DIR$/bootstrap" />
     </key>
   </component>
   <component name="RunManager">
@@ -354,14 +326,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1905434" sideWeight="0.6700288" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1905434" sideWeight="0.6700288" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -389,13 +361,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="23" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/createBlog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="78" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="585">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="24" column="78" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/settings.py">
@@ -417,16 +392,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="22" selection-start="4044" selection-end="4044" vertical-scroll-proportion="2.7117116" vertical-offset="1164" max-vertical-offset="3405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="64" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1320">
-          <folding />
-        </state>
+        <state line="198" column="22" selection-start="4044" selection-end="4044" vertical-scroll-proportion="2.7117116" vertical-offset="1164" max-vertical-offset="3405" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/urls.py">
@@ -438,40 +404,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="12" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="135" selection-end="135" vertical-scroll-proportion="0.114854515" vertical-offset="0" max-vertical-offset="653">
-          <folding />
-        </state>
+        <state line="5" column="18" selection-start="135" selection-end="135" vertical-scroll-proportion="0.114854515" vertical-offset="0" max-vertical-offset="653" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/jquery/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28407" selection-start="92629" selection-end="92629" vertical-scroll-proportion="0.091883615" vertical-offset="0" max-vertical-offset="653">
-          <folding />
-        </state>
+        <state line="4" column="28407" selection-start="92629" selection-end="92629" vertical-scroll-proportion="0.091883615" vertical-offset="0" max-vertical-offset="653" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="92" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
+        <state line="8" column="92" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/createBlog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="531" selection-end="531" vertical-scroll-proportion="0.3504673" vertical-offset="0" max-vertical-offset="735">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="15" column="0" selection-start="531" selection-end="531" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lekhana/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="1" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.43693694" vertical-offset="714" max-vertical-offset="1380">
+          <folding />
         </state>
       </provider>
     </entry>
