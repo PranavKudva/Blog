@@ -4,6 +4,11 @@
       <link rel="stylesheet" type="text/css"  href="/resources/css/bootstrap.min.css" >
       <script src="/resources/jquery/jquery.min.js"></script>
       <script src="/resources/js/bootstrap.min.js"></script>
+      <style>
+          input[type="text"] {
+             width: 600px;
+            }
+      </style>
 </head>
 <body>
     <div class="container">
@@ -22,24 +27,22 @@
 
                         <div class="tabbable tab-content">
                                 <div class="tab-pane active" id="A">
-                                        <form action="post_the_blog/" method="post">
+                                        <form action="post/" method="post">
                                             {% csrf_token %}
-                                            <div class="input-medium search-query">
-                                                <label for="id_title">What's the title :</label>
-                                                {{ form.title }}
-                                            </div>
+                                            <br>
+                                                <input type="text" class="form-control" id="title" maxlength="50" name="title" width="1100px" placeholder="Caption here.Please do not exceed 50 letters" required>
+                                            <br>
+                                            <br>
+
                                             <div>
-                                                <textarea class="field span8" id="textarea" rows="15" placeholder="What's your story?">
-                                                    {{ form.content }}
-                                                </textarea>
+                                                <textarea class="span8" maxlength="21000" name="contents" rows="15" placeholder="Contents here.Please do not exceed 21000 letters" required></textarea>
                                             </div>
-                                            <div class="span8"></div>
-                                                <input type="submit" class="btn btn-primary btn-large" value="Post">
+                                            <div class="span8"></div><input type="submit" class="btn btn-primary btn-large" value="Post">
                                         </form>
                                 </div>
                                 <div class="tab-pane" id="B">
-                                   <form class="well form-search">
-                                        <input type="text" class="input-medium search-query">
+                                   <form action="/home/search/" method="get">
+                                        <input type="text" name="title" class="input-medium search-query" placeholder="Blog you're looking for">
                                         <button type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i>Search</button>
                                    </form>
                                 </div>

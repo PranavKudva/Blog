@@ -59,7 +59,7 @@ WSGI_APPLICATION = 'Lekhana.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'core',
+        'NAME': 'lekhana',
         'USER': 'root',
         'PASSWORD': 'password',
         'HOST': '127.0.0.1',
@@ -84,4 +84,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/resources-files/
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'), )
 
-MEDIA_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'resources/'))
+STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'resources/'))

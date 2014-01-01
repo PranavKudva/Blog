@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" type="text/css"  href="/resources/css/bootstrap.min.css" >
+      <script src="/resources/jquery/jquery.min.js"></script>
+      <script src="/resources/js/bootstrap.min.js"></script>
+      <style>
+          input[type="text"] {
+             width: 600px;
+            }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <div style="margin-top: 25px">
+            <div class="span12">
+                <div class="hero-unit">
+                    <h1>Lekhana</h1>
+                    <h4>Because a pen is mightier only if used....</h4>
+                    <br/>
+
+                    <div class="row">
+                        <ul class="nav nav-tabs">
+                            <li><a href="#A" data-toggle="tab"><i class="icon-edit"></i>Write</a></li>
+                            <li class="active"><a href="#B" data-toggle="tab"><i class="icon-file"></i>Read</a></li>
+                        </ul>
+
+                        <div class="tabbable tab-content">
+                                <div class="tab-pane" id="A">
+                                        <form action="post/" method="post">
+                                            {% csrf_token %}
+                                            <br>
+                                                <input type="text" class="form-control" id="title" maxlength="50" name="title" width="1100px" placeholder="Caption here.Please do not exceed 50 letters" required>
+                                            <br>
+                                            <br>
+
+                                            <div>
+                                                <textarea class="span8" maxlength="21000" name="contents" rows="15" placeholder="Contents here.Please do not exceed 21000 letters" required></textarea>
+                                            </div>
+                                            <div class="span8"></div><input type="submit" class="btn btn-primary btn-large" value="Post">
+                                        </form>
+                                </div>
+                                <div class="tab-pane active" id="B">
+                                   <form action="/home/search/" method="get">
+                                        <input type="text" name="title" class="input-medium search-query" placeholder="Blog(s) you're looking for">
+                                        <button type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i>Search</button>
+                                   </form>
+                                   <div>
+                                       <ul>
+                                           {% for blog in foundblogs %}
+                                           <li>
+                                               <a href="/home/view/?title={{ blog.title }}">{{ blog.title }}</a>
+                                               <a href="/home/delete/?title={{ blog.title }}"><i class="icon-trash"></i></a>
+                                           </li>
+                                           {% endfor %}
+                                       </ul>
+                                   </div>
+                                </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
