@@ -46,10 +46,8 @@
                                         <button type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i>Search</button>
                                    </form>
                                    <div class="span9">
-                                       {% for blog in blogs %}
                                             <a href="/home/delete/?title={{ blog.title }}"><h2>{{ blog.title }}</h2><i class="icon-trash"></i></a>
                                             <p>{{ blog.content }}</p>
-                                       {% endfor %}
                                    </div>
                                 </div>
                         </div>

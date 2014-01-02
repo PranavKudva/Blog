@@ -47,12 +47,16 @@
                                    </form>
                                    <div>
                                        <ul>
-                                           {% for blog in foundblogs %}
-                                           <li>
-                                               <a href="/home/view/?title={{ blog.title }}">{{ blog.title }}</a>
-                                               <a href="/home/delete/?title={{ blog.title }}"><i class="icon-trash"></i></a>
-                                           </li>
-                                           {% endfor %}
+                                           {% if foundblogs %}
+                                               {% for blog in foundblogs %}
+                                               <li>
+                                                   <a href="/home/view/?title={{ blog.title }}">{{ blog.title }}</a>
+                                                   <a href="/home/delete/?title={{ blog.title }}"><i class="icon-trash"></i></a>
+                                               </li>
+                                               {% endfor %}
+                                           {% else %}
+                                                <p class="text-center">No blog found with the title '{{ title }}'.</p>
+                                           {% endif %}
                                        </ul>
                                    </div>
                                 </div>

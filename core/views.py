@@ -8,21 +8,6 @@ class SearchResults(forms.Form):
     title = forms.CharField()
     content = forms.CharField()
 
-# def write_blog(request):
-#     if request.method == 'GET':
-#         form = BlogCreater(request.POST)
-#
-#         if form.is_valid():
-#             title = form.cleaned_data['title']
-#
-#             return HttpResponse('Posted Successfully')
-#         else:
-#             form = BlogCreater()
-#
-#         return render(request, 'writeBlog.html', {
-#             'form': form
-#         })
-
 def post(request):
     Blog.objects.create(
         title=request.POST['title'],
@@ -33,24 +18,23 @@ def post(request):
 
 
 def search(request):
-    foundblogs = Blog.objects.all().filter(title__icontains=request.GET['title'])
-    if foundblogs.count() == 0:
-          return render(request, 'noBlogFound.html')
+    title = request.GET['title']
+    foundblogs = Blog.objects.all().filter(title__icontains=title)
 
     return render(request, 'searchBlog.html', {
-        'foundblogs': foundblogs
+        'foundblogs': foundblogs,
+        'title': title
     })
 
 
 def view(request):
-    blogs = Blog.objects.all().filter(title=request.GET['title'])
+    blog = Blog.objects.get(title=request.GET['title'])
 
     return render(request, 'viewBlog.html', {
-        'blogs': blogs
+        'blog': blog
     })
 
 def delete(request):
     Blog.objects.all().filter(title=request.GET['title']).delete()
 
     return render(request, 'writeBlog.html')
-
