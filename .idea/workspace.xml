@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4408805-494c-4527-a5bd-b10e38a28219" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/createBlog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/wsgi.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/writeBlog.html" afterPath="$PROJECT_DIR$/templates/writeBlog.html" />
     </list>
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -362,21 +364,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="23" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="1455" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="64" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="198" column="22" selection-start="4044" selection-end="4044" vertical-scroll-proportion="2.7117116" vertical-offset="1164" max-vertical-offset="3405">
@@ -404,11 +391,6 @@
         <state line="8" column="92" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.14414415" vertical-offset="714" max-vertical-offset="1380" />
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/django/conf/urls/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="24" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.8198198" vertical-offset="249" max-vertical-offset="975" />
@@ -420,13 +402,6 @@
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="68" selection-start="220" selection-end="220" vertical-scroll-proportion="0.11261261" vertical-offset="0" max-vertical-offset="666">
-          <folding />
         </state>
       </provider>
     </entry>
