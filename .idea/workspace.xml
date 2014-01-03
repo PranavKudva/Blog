@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4408805-494c-4527-a5bd-b10e38a28219" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/editBlog.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/js/toggleTitleUpdationVisibility.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/js/toggleContentUpdationVisibility.js" afterPath="$PROJECT_DIR$/templates/writeBlog.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/writeBlog.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/searchBlog.html" afterPath="$PROJECT_DIR$/templates/searchBlog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/editBlog.html" afterPath="$PROJECT_DIR$/templates/editBlog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lekhana/urls.py" afterPath="$PROJECT_DIR$/Lekhana/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/viewBlog.html" afterPath="$PROJECT_DIR$/templates/viewBlog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/views.py" afterPath="$PROJECT_DIR$/core/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -39,20 +34,9 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="53" selection-start="498" selection-end="498" vertical-scroll-proportion="0.30389223" vertical-offset="82" max-vertical-offset="975">
+            <state line="34" column="12" selection-start="805" selection-end="805" vertical-scroll-proportion="0.46107784" vertical-offset="202" max-vertical-offset="870">
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lekhana/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="53" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,13 +69,13 @@
         <option value="$PROJECT_DIR$/resources/js/updateFormVisibility.js" />
         <option value="$PROJECT_DIR$/resources/js/toggleTitleUpdationVisibility.js" />
         <option value="$PROJECT_DIR$/resources/js/toggleContentUpdationVisibility.js" />
-        <option value="$PROJECT_DIR$/Lekhana/urls.py" />
-        <option value="$PROJECT_DIR$/core/views.py" />
         <option value="$PROJECT_DIR$/templates/writeBlog.html" />
         <option value="$PROJECT_DIR$/templates/searchBlog.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/editBlog.html" />
         <option value="$PROJECT_DIR$/templates/viewBlog.html" />
+        <option value="$PROJECT_DIR$/core/views.py" />
+        <option value="$PROJECT_DIR$/Lekhana/urls.py" />
+        <option value="$PROJECT_DIR$/templates/editBlog.html" />
       </list>
     </option>
   </component>
@@ -156,20 +140,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lekhana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lekhana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,14 +422,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19336626" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19336626" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -565,22 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/editBlog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="33" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.41770187" vertical-offset="466" max-vertical-offset="1320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lekhana/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/viewBlog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="0" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.69720495" vertical-offset="331" max-vertical-offset="1020">
@@ -595,11 +549,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/editBlog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="115" selection-start="2951" selection-end="2951" vertical-scroll-proportion="-13.083333" vertical-offset="661" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lekhana/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="34" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="53" selection-start="498" selection-end="498" vertical-scroll-proportion="0.30389223" vertical-offset="82" max-vertical-offset="975">
+        <state line="34" column="12" selection-start="805" selection-end="805" vertical-scroll-proportion="0.46107784" vertical-offset="202" max-vertical-offset="870">
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

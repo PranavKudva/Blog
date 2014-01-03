@@ -1,12 +1,5 @@
-from django import forms
-from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 from core.models import Blog
-
-
-class SearchResults(forms.Form):
-    title = forms.CharField()
-    content = forms.CharField()
 
 
 def post(request):

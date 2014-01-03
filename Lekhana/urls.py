@@ -6,7 +6,9 @@ urlpatterns = patterns('', url(r'^home/$', TemplateView.as_view(template_name='w
                        (r'post/', 'core.views.post'),
                        (r'search/', 'core.views.search'),
                        (r'view/', 'core.views.view'),
-                       (r'manip/','core.views.manip'),
-                       (r'update/','core.views.update'),
-    (r'resources/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+                       (r'manip/', 'core.views.manip'),
+                       (r'update/', 'core.views.update'),
+                       (
+                           r'resources/(?P<path>.*)$', 'django.views.static.serve',
+                           {'document_root': settings.STATIC_ROOT})
 )
