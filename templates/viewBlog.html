@@ -4,13 +4,20 @@
       <link rel="stylesheet" type="text/css"  href="/resources/css/bootstrap.min.css" >
       <script src="/resources/jquery/jquery.min.js"></script>
       <script src="/resources/js/bootstrap.min.js"></script>
+      <script src="/resources/js/toggleTitleUpdationVisibility.js"></script>
+      <script src="/resources/js/toggleContentUpdationVisibility.js"></script>
+      <script type="text/javascript">
+          function hideUpdate(){
+            document.getElementById('updateTitle').style.visibility="hidden"
+          }
+      </script>
       <style>
           input[type="text"] {
              width: 600px;
             }
       </style>
 </head>
-<body>
+<body onload="hideUpdate()">
     <div class="container">
         <div style="margin-top: 25px">
             <div class="span12">
@@ -35,7 +42,7 @@
                                             <br>
 
                                             <div>
-                                                <textarea class="span8" maxlength="21000" name="contents" rows="15" placeholder="Contents here.Please do not exceed 21000 letters" required></textarea>
+                                                <textarea class="span8" maxlength="21000" id="contents" name="contents" rows="15" placeholder="Contents here.Please do not exceed 21000 letters" required></textarea>
                                             </div>
                                             <div class="span8"></div><input type="submit" class="btn btn-primary btn-large" value="Post">
                                         </form>
@@ -45,9 +52,19 @@
                                         <input type="text" name="title" class="input-medium search-query" placeholder="Blog(s) you're looking for">
                                         <button type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i>Search</button>
                                    </form>
-                                   <div class="span9">
-                                            <a href="/home/delete/?title={{ blog.title }}"><h2>{{ blog.title }}</h2><i class="icon-trash"></i></a>
-                                            <p>{{ blog.content }}</p>
+                                   <div class="span10">
+                                        <strong>{{ blog.title }}</strong>
+                                        <a href="/home/delete/?title={{ blog.title }}"><i class="icon-trash"></i></a>
+                                        <a href="javascript:handleUpdateTitle()"><i class="icon-retweet"></i></a>
+
+                                        <form action="/home/update/" method="post">
+                                            {% csrf_token %}
+                                            <input type="hidden" id="blog_id" name="blog_id" value="{{ blog.id }}">
+                                            <input type="hidden" id="newTitle" name="newTitle" class="search-query" placeholder="New Title" >
+                                            <input type="submit" id="updateTitle" name="updateTitle" class="btn btn-primary" value="Update">
+                                        </form>
+
+                                        <p>{{ blog.content }}</p>
                                    </div>
                                 </div>
                         </div>
