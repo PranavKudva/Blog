@@ -15,7 +15,9 @@ def post(request):
         content=request.POST['contents']
     )
 
-    return redirect('/home/view/?title=' + request.POST['title'])
+    blog = Blog.objects.get(title=request.POST['title'])
+
+    return redirect('/home/view/?id=' + str(blog.id))
 
 
 def search(request):
@@ -28,21 +30,31 @@ def search(request):
     })
 
 
+def manip(request):
+    if request.POST['action'] == 'Delete':
+        return delete(request.POST['id'])
+
+    else:
+        blog = Blog.objects.get(pk=request.POST['id'])
+        return render(request, 'editBlog.html', {'blog': blog})
+
+
+def delete(id):
+    Blog.objects.all().filter(pk=id).delete()
+
+    return redirect('/home/')
+
+
 def view(request):
-    blog = Blog.objects.get(title=request.GET['title'])
+    blog = Blog.objects.get(pk=request.GET['id'])
 
     return render(request, 'viewBlog.html', {
         'blog': blog
     })
 
 
-def delete(request):
-    Blog.objects.all().filter(title=request.GET['title']).delete()
-
-    return render(request, 'writeBlog.html')
-
-
 def update(request):
-    Blog.objects.filter(pk=request.POST['blog_id']).update(title=request.POST['newTitle'])
+    Blog.objects.filter(pk=request.POST['id']).update(title=request.POST['newTitle'],
+                                                      content=request.POST['newContent'])
 
-    return redirect('/home/view/?title='+ request.POST['newTitle'])
+    return redirect('/home/view/?id=' + request.POST['id'])
