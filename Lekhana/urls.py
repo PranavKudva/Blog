@@ -10,5 +10,6 @@ urlpatterns = patterns('', url(r'^home/$', TemplateView.as_view(template_name='w
                        (r'update/', 'core.views.update'),
                        (
                            r'resources/(?P<path>.*)$', 'django.views.static.serve',
-                           {'document_root': settings.STATIC_ROOT})
+                           {'document_root': settings.STATIC_ROOT}
+                       )
 )
