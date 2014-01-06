@@ -58,8 +58,8 @@ WSGI_APPLICATION = 'Lekhana.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'lekhana',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'lekhana.sqlite3',
         'USER': 'root',
         'PASSWORD': 'password',
         'HOST': '127.0.0.1',
