@@ -3,12 +3,12 @@
 {% block search %}
 <div class="row">
     <ul class="nav nav-tabs">
-        <li class="active"><a href="#A" data-toggle="tab"><i class="icon-edit"></i>Write</a></li>
-        <li><a href="#B" data-toggle="tab"><i class="icon-file"></i>Search</a></li>
+        <li class="active"><a href="#Write" data-toggle="tab"><i class="icon-edit"></i>Write</a></li>
+        <li><a href="#Search" data-toggle="tab"><i class="icon-search"></i>Search</a></li>
     </ul>
 
     <div class="tabbable tab-content">
-        <div class="tab-pane active" id="A">
+        <div class="tab-pane active" id="Write">
             <form action="post/" method="post">
                 {% csrf_token %}
                 <br>
@@ -25,7 +25,7 @@
                 <input type="submit" class="btn btn-primary btn-large" value="Post">
             </form>
         </div>
-        <div class="tab-pane" id="B">
+        <div class="tab-pane" id="Search">
             <form action="/home/search/" method="get">
                 <input type="text" name="title" class="input-medium search-query"
                        placeholder="Blog(s) you're looking for">
