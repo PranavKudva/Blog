@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4408805-494c-4527-a5bd-b10e38a28219" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/viewBlog.html" afterPath="$PROJECT_DIR$/templates/viewBlog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lekhana.sqlite3" afterPath="$PROJECT_DIR$/lekhana.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/writeBlog.html" afterPath="$PROJECT_DIR$/templates/writeBlog.html" />
     </list>
     <ignored path="Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="viewBlog.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="viewBlog.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/viewBlog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.11645963" vertical-offset="0" max-vertical-offset="660">
+            <state line="5" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -46,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="writeBlog.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="writeBlog.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/writeBlog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="29" selection-start="1342" selection-end="1342" vertical-scroll-proportion="-16.833334" vertical-offset="31" max-vertical-offset="720">
+            <state line="23" column="101" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.48757765" vertical-offset="31" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -95,9 +96,9 @@
         <option value="$PROJECT_DIR$/templates/searchBlog.html" />
         <option value="$PROJECT_DIR$/core/views.py" />
         <option value="$PROJECT_DIR$/Lekhana/settings.py" />
-        <option value="$PROJECT_DIR$/templates/writeBlog.html" />
         <option value="$PROJECT_DIR$/templates/editBlog.html" />
         <option value="$PROJECT_DIR$/templates/viewBlog.html" />
+        <option value="$PROJECT_DIR$/templates/writeBlog.html" />
       </list>
     </option>
   </component>
@@ -558,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/writeBlog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="29" selection-start="1342" selection-end="1342" vertical-scroll-proportion="-16.833334" vertical-offset="31" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/editBlog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="94" selection-start="196" selection-end="196" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="480">
@@ -581,7 +575,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/viewBlog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.11645963" vertical-offset="0" max-vertical-offset="660">
+        <state line="5" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/writeBlog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="101" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.48757765" vertical-offset="31" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
