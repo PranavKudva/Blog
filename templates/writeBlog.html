@@ -1,14 +1,16 @@
 {% extends 'base.html' %}
 {% block write %}
-{% block search %}
 <div class="row">
     <ul class="nav nav-tabs">
-        <li class="active"><a href="#Write" data-toggle="tab"><i class="icon-edit"></i>Write</a></li>
-        <li><a href="#Search" data-toggle="tab"><i class="icon-search"></i>Search</a></li>
+        <li class="{% block write_tab %}active{% endblock %}"><a href="#Write" data-toggle="tab"><i
+                class="icon-edit"></i>Write</a></li>
+        <li class="{% block search_tab %}{% endblock %}"><a href="#Search" data-toggle="tab"><i class="icon-search"></i>Search</a>
+        </li>
+        {% block add_tabs %}{% endblock %}
     </ul>
 
     <div class="tabbable tab-content">
-        <div class="tab-pane active" id="Write">
+        <div class="tab-pane {% block write_tab_content %}active{% endblock %}" id="Write">
             <form action="post/" method="post">
                 {% csrf_token %}
                 <br>
@@ -25,14 +27,17 @@
                 <input type="submit" class="btn btn-primary btn-large" value="Post">
             </form>
         </div>
-        <div class="tab-pane" id="Search">
+        <div class="tab-pane {% block search_tab_content %}{% endblock %}" id="Search">
             <form action="/home/search/" method="get">
+                {% csrf_token %}
                 <input type="text" name="title" class="input-medium search-query"
                        placeholder="Blog(s) you're looking for">
                 <button type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i>Search</button>
             </form>
+            {% block search_results %}{% endblock %}
         </div>
+        {% block other_tabs_contents %}{% endblock %}
     </div>
 </div>
-{% endblock %}
+{% block manip_route_script %}{% endblock %}
 {% endblock %}
