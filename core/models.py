@@ -8,3 +8,11 @@ class Blog(models.Model):
 
     def __unicode__(self):
         return self.title
+
+
+class User(models.Model):
+    user_name = models.CharField(max_length=30)
+    password = models.CharField(max_length=30)
+
+    def __unicode__(self):
+        return self.user_name
